@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/oauth?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+  application:
+    name: oauth2-server
+
+# log
+logging:
+  level:
+    org.apache.ibatis: debug
+    com.github.pysrc.oauth2: debug
